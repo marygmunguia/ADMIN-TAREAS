@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
-var TareaSchema = new mongoose.Schema({
+var TareasSchema = new mongoose.Schema({
     nombre:String,
     prioridad: Number
 });
 
-mongoose.model('Tarea', TareaSchema);
+mongoose.model('Tareas', TareasSchema);
